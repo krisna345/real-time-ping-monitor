@@ -1,3 +1,31 @@
+
+Ping Monitor with Real-Time Graph
+
+This script pings a specified host (IP/domain) continuously and displays the
+real-time average response time on a graph in your browser. The results are also
+logged to an Excel file.
+
+Features:
+- Pings a host every 5 seconds.
+- Extracts the average response time from the ping output.
+- Logs the timestamp, host, status, and average response time to an Excel file.
+- Updates a Plotly graph (saved as HTML) that auto-refreshes in the browser.
+
+Requirements:
+- Python 3.x
+- pandas
+- openpyxl
+- plotly
+- tkinter (usually included with Python)
+- A modern browser to view the real-time graph
+
+Usage:
+1. Run the script: `python3 ping_monitor.py`
+2. Enter the IP or domain when prompted.
+3. A browser tab will open with the real-time graph, which refreshes every 5 seconds.
+
+Press Ctrl+C to stop the tool.
+"""
 # real-time-ping-monitor
 
 # Real-Time Ping Monitor with Graph
