@@ -50,6 +50,9 @@ This project is a Python-based tool that continuously pings a user-specified hos
 
 ## Installation
 
-1. **Clone the Repository:**
+nstall Required Packages:
 
-   ```bash
+You can install the required Python packages using pip:
+
+bash
+pip install pandas openpyxl plotly
